@@ -205,10 +205,22 @@ inquirer
       console.log(gitData.data)
     
       let email = gitData.data.email
+      console.log(gitData.data.email)
       let image = gitData.data.avatar_url
-      let website = gitData.data.blog
+      console.log(gitData.data.avatar_url)
+
+      const readMeApp = "";
 
 
+  fs.writeFile("readme2.md", JSON.stringify(userData,gitData, "\t"), function(err) {
+    if (readMeApp === true) {
+     
+
+
+   } else {
+     console.log(err);
+   }
+ });
 
     })
 
