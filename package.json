@@ -1,0 +1,39 @@
+{
+  "name": "readmegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "boxen": "^4.2.0",
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "dotenv": "^8.2.0",
+    "electron": "^8.0.1",
+    "express": "^4.17.1",
+    "inquirer": "^7.0.4",
+    "open": "^7.0.2",
+    "ora": "^4.0.3",
+    "prompts": "^2.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlabeltran/readmegen.git"
+  },
+  "keywords": [
+    "Generate",
+    "Markdown",
+    "File",
+    "Instantly"
+  ],
+  "author": "Carla Beltran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlabeltran/readmegen/issues"
+  },
+  "homepage": "https://github.com/carlabeltran/readmegen#readme"
+}
